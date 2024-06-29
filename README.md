@@ -1,5 +1,5 @@
 # APOD Project
-
+[![Live Demo](https://img.shields.io/badge/Demo-Live-brightgreen)](https://reactjsapod.netlify.app/)
 This project is a React-based web application that fetches and displays the Astronomy Picture of the Day (APOD) from NASA's API. The app also includes a sidebar for additional information about the image and a footer with a toggle button to display the sidebar.
 
 ## Features
