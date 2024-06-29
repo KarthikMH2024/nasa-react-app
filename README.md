@@ -43,58 +43,16 @@ To run this project locally, follow these steps:
    ```sh
    git clone https://github.com/your-username/apod-project.git
 
-Navigate to the project directory:
+2.Navigate to the project directory:
+   ```sh
+      cd apod-project
+3.install the dependencies:
 
 sh
-Copy code
-cd apod-project
-Install the dependencies:
+```npm install
 
-sh
-Copy code
-npm install
 Create a .env file in the root directory of the project and add your NASA API key:
 
-env
-Copy code
+.env
+```sh
 VITE_NASA_API_KEY=your_nasa_api_key_here
-Running the App
-To start the application, run:
-
-sh
-Copy code
-npm run dev
-Open your browser and navigate to http://localhost:3000 to see the application in action.
-
-Project Structure
-plaintext
-Copy code
-src/
-|-- components/
-|   |-- Footer.js
-|   |-- Main.js
-|   |-- SideBar.js
-|-- App.js
-|-- index.css
-|-- main.jsx
-CSS
-Global styles are defined in index.css.
-Flexbox is used for layout alignment and centering.
-Media queries are used to adjust the sidebar layout for larger screens.
-Local Storage
-The APOD data is cached in the local storage with the key NASA-{today's date}.
-If cached data for the current day is found, it is used instead of making a new API call.
-Environment Variables
-The NASA API key is stored in an environment variable and accessed via import.meta.env.VITE_NASA_API_KEY.
-Animation
-The loading state icon spins using a CSS keyframe animation.
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-Acknowledgments
-NASA API for providing the Astronomy Picture of the Day data.
-Font Awesome for the icons.
-Demo
-Check out the live demo of the project here.
-
-Feel free to modify and adapt this README file according to your specific needs and additional features of your project.
